@@ -1,0 +1,6 @@
+<suite name="Setup" verbose="1" parallel="tests" thread-count="1">
+
+    <test name="DemoClass">
+        <parameter name="browser" value="Chrome"/>
+        <classes><class name="demoPackage.DemoClass" /></classes></test>
+</suite>
